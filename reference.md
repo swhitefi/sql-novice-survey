@@ -114,7 +114,7 @@ primary key
 :   One or more [fields](#field) in a [database table](#table) whose values are guaranteed to be unique for each [record](#record), i.e., whose values uniquely identify the entry.
 
 query
-:   A database operation that reads values but does not modify anything. Queries are expressed in a special-purpose language called [SQL](#sql).
+:   A database operation that allows values from selected columns in a database to be shown and/or changed based on criteria that the user specifies. In the special-purpose language [SQL](#sql), queries are described after the SELECT keyword.
 
 record
 :   A set of related values making up a single entry in a [database table](#table), typically shown as a row. See also: [field](#field).
